@@ -441,10 +441,19 @@ body {
     display: flex; 
     padding-left: 140px;
     padding-right: 50px;
-    background-size: 1560px;
-    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-lg.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../IMG/footer-bg-lg.png);
 }
 
+
+@media (max-width: 992px) {
+    .footer{
+        background-image: url(../IMG/footer-bg-sm.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}    
 
 .footer_content{
     display: block;
