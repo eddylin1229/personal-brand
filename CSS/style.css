@@ -179,7 +179,7 @@ body {
  @media (max-width: 992px) {
 
     .slogan{
-        width:380px;
+        width:320px;
         margin-bottom: 20px;  
         display: flex;
         flex-wrap: wrap;
@@ -221,7 +221,7 @@ body {
      .focus img{
         position: absolute;
         top:64px;
-        right: 90px;
+        right: 60px;
        
 
      }
@@ -229,7 +229,7 @@ body {
      .focus_1 img{
         position: absolute;
         top:150px;
-        right: 90px;
+        right: 60px;
    
      }
     
